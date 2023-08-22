@@ -3,8 +3,8 @@
 }
 
 nav {
-    background-color: rgb(230, 214, 195);
-    justify-content: space-around;
+    background-color: rgb(252, 249, 210);
+    justify-content: space-between;
     display: flex;
     top: 0;
     left: 0;
@@ -20,18 +20,23 @@ nav ul {
 
 nav ul a {
     text-decoration: none;
-    color: rgb(178, 170, 250);
+    color: rgb(252, 152, 71);
     font-size: 18px;
     font-weight: bold;
     padding: 0 15px;
 }
 
 nav ul a:hover {
-    color: rgba(255, 255, 255, 0.913);
+    color: rgb(224, 83, 83);
+    transition: all 0.3s;
+    background-color: rgba(109, 109, 109, 0.5);
+    border-radius: 4px;
+    padding: 5px 20px;
+    
 }
 
 nav img {
-    max-width: 35px;
+    max-width: 30px;
 }
 
 #logo {
