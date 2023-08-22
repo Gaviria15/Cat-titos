@@ -1,1 +1,53 @@
-sty
+* {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(230, 214, 195);
+    justify-content: space-around;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(178, 170, 250);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+nav ul a:hover {
+    color: rgba(255, 255, 255, 0.913);
+}
+
+nav img {
+    max-width: 35px;
+}
+
+#logo {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+main h1 {
+    font-family: 'Rubik Marker Hatch', cursive;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+main h1 {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 20px;
+}
