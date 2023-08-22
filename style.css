@@ -4,7 +4,7 @@
 
 nav {
     background-color: rgb(252, 249, 210);
-    justify-content: space-between;
+    justify-content:space-between ;
     display: flex;
     top: 0;
     left: 0;
@@ -16,6 +16,7 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
+
 }
 
 nav ul a {
@@ -37,6 +38,7 @@ nav ul a:hover {
 
 nav img {
     max-width: 30px;
+    padding: 10px;
 }
 
 #logo {
