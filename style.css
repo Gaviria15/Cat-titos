@@ -4,6 +4,10 @@
 
 nav {
     background-color: rgb(252, 249, 210);
+<<<<<<< HEAD
+=======
+    justify-content:space-between ;
+>>>>>>> 6bfebe1eed25ddb3530e40aca3246cf2afd009e5
     display: flex;
     top: 0;
     left: 0;
@@ -15,6 +19,7 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
+
 }
 
 nav ul a {
@@ -35,7 +40,12 @@ nav ul a:hover {
 }
 
 nav img {
+<<<<<<< HEAD
     max-width: 10px;
+=======
+    max-width: 30px;
+    padding: 10px;
+>>>>>>> 6bfebe1eed25ddb3530e40aca3246cf2afd009e5
 }
 
 #logo {
