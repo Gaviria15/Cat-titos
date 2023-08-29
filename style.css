@@ -78,17 +78,17 @@ main h1 {
 }
 
 /*Módulo adopción*/
-.contenedor{
-    padding: 10px;
-    text-align: center;
-}
+
 .contenidos{
     padding: 5px;
 }
-    .titulos{
-        font-weight: 300;
+.titulos{
+    font-weight: 400;
+    text-decoration: solid;
+    text-align: center;
 
-    }
+
+}
   
 .galeriap{
     font-size: 40px;
@@ -267,6 +267,53 @@ img{
     .ag-courses-item_date-box {
       font-size: 16px;
     }
+  }
+
+
+  
+.container121{
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.square:hover {
+    -webkit-transform: translate(20px, -10px);
+    -ms-transform: translate(10px, -10px);
+    transform: translate(10px, -10px);
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+     }
+
+
+.square{
+  width: 360px;
+	height: 380px;
+	background: white;
+  border-radius: 4px;
+  box-shadow: 0px 20px 50px #D9DBDF;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; 
+  padding: 0px 30px 0px 30px;
+  margin: 0px 80px 0px 80px;
+
+}
+
+.mask{
+  clip: rect(0px, 460px, 220px, 0px);
+  border-radius: 4px;
+  position: absolute;
+  width: 390px;
+}
+.hh11{
+  margin: auto;
+  text-align: left;
+  margin-top: 240px;
+  padding-left: 30px;
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+}
 
 /*TARJETAS*/
 article {
@@ -393,4 +440,4 @@ article:has(:hover, :focus) {
   position: absolute;
   white-space: nowrap; 
   width: 1px;
-}}
+}
