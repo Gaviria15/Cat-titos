@@ -1,6 +1,7 @@
 
 * {
     margin: 0;
+   
 }
 
 nav {
@@ -53,16 +54,16 @@ nav img {
 }
 
 .cuidados{
-    margin: 10px 0px 20px 0px;
     font-family: 'Manrope', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
 }
 
 .cuidados_texto{
     margin-bottom: 20px;
     font-family: 'Manrope', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
+    margin-left: 3%;
 }
 main h1 {
     font-family: 'Rubik Marker Hatch', cursive;
@@ -255,6 +256,7 @@ img{
       -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
     }
+  }
     .ag-courses-item_title {
       min-height: 72px;
       line-height: 1;
@@ -315,6 +317,18 @@ img{
   font-size: 24px;
 }
 
+/*POR QUÉ TENER UN GATITO EN CASA*/
+
+.carousel-inner{
+  width: 90%;
+  height: 750px;
+}
+
+.info_principal{
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+
 /*TARJETAS*/
 article {
   --img-scale: 1.001;
@@ -341,10 +355,15 @@ article a::after {
 article h2 {
   margin: 0 0 18px 0;
   font-family: 'Manrope', sans-serif;
-  font-size: 1.9rem;
+  font-size: 25px;
   letter-spacing: 0.06em;
   color: var(--title-color);
   transition: color 0.3s ease-out;
+}
+
+article p{
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
 }
 
 figure {
@@ -363,28 +382,6 @@ article img {
 .article1 {
   padding: 24px;
 }
-
-article a {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  color: #28666e;
-}
-
-article a:focus {
-  outline: 1px dotted #28666e;
-}
-
-article a .icon {
-  min-width: 24px;
-  width: 24px;
-  height: 24px;
-  margin-left: 5px;
-  transform: translateX(var(--link-icon-translate));
-  opacity: var(--link-icon-opacity);
-  transition: all 0.3s;
-}
-
 article:has(:hover, :focus) {
   --img-scale: 1.1;
   --title-color: #28666e;
