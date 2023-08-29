@@ -43,8 +43,8 @@ nav ul a:hover {
 }
 
 nav img {
-    max-width: 30px;
-    padding: 10px;
+    max-width: 50px;
+    
 
 }
 
@@ -84,10 +84,13 @@ main h1 {
     padding: 5px;
 }
 .titulos{
-    font-weight: 400;
-    text-decoration: solid;
+    font-weight: 600;
+    text-decoration-line: underline;
+    font-size: 50px;
+    text-decoration-color: rgba(216, 135, 81, 0.685);
+    color: rgb(255, 229, 191);
     text-align: center;
-
+  padding: 30px 
 
 }
   
@@ -181,14 +184,14 @@ img{
   
     font-weight: bold;
     font-size: 30px;
-    color: #FFF;
+    color: #ffffff;
   
     z-index: 2;
     position: relative;
   }
   .ag-courses-item_date-box {
     font-size: 18px;
-    color: #FFF;
+    color: #ffffff;
   
     z-index: 2;
     position: relative;
@@ -204,7 +207,7 @@ img{
   .ag-courses-item_bg {
     height: 128px;
     width: 128px;
-    background-color: #f9b234;
+    background-color: #fcdba3;
   
     z-index: 1;
     position: absolute;
@@ -218,21 +221,26 @@ img{
     transition: all .5s ease;
   }
   .ag-courses_item:nth-child(2n) .ag-courses-item_bg {
-    background-color: #3ecd5e;
+    background-color: #bbeec6;
   }
   .ag-courses_item:nth-child(3n) .ag-courses-item_bg {
-    background-color: #e44002;
+    background-color: #f0aa91;
   }
   .ag-courses_item:nth-child(4n) .ag-courses-item_bg {
-    background-color: #952aff;
+    background-color: #d9baf8;
   }
   .ag-courses_item:nth-child(5n) .ag-courses-item_bg {
-    background-color: #cd3e94;
+    background-color: #f8b6de;
   }
   .ag-courses_item:nth-child(6n) .ag-courses-item_bg {
-    background-color: #4c49ea;
+    background-color: #bdbcf7;
   }
-  
+  .ag-courses_item:nth-child(7n) .ag-courses-item_bg {
+    background-color: #dc9fff;
+  } 
+  .ag-courses_item:nth-child(8n) .ag-courses-item_bg {
+    background-color: #fdff98;
+  }
   
   
   @media only screen and (max-width: 979px) {
@@ -269,7 +277,7 @@ img{
     .ag-courses-item_date-box {
       font-size: 16px;
     }
-  }
+  
 
 
   
@@ -437,4 +445,67 @@ article:has(:hover, :focus) {
   position: absolute;
   white-space: nowrap; 
   width: 1px;
+}
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-logo img {
+  max-width: 60px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #f5a623;
+}
+
+.footer-contact p {
+  margin: 0;
+}
+
+/* Estilos para el footer inferior */
+.footer-bottom {
+  background-color: #222;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
 }
