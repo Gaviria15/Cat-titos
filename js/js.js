@@ -12,10 +12,10 @@ const text1_options = [
   ];
   const color_options = ["#DBC894", "#E7DBB6", "#E2D4A7", "#DDC298"];
   const image_options = [
-    "/img/carrusel1.jpeg",
-    "/img/carrusel2.jpeg",
-    "/img/carrusel3.jpeg",
-    "/img/carrusel4.jpeg"
+    "img/carrusel1.jpeg",
+    "img/carrusel2.jpeg",
+    "img/carrusel3.jpeg",
+    "img/carrusel4.jpeg"
   ];
   var i = 0;
   const currentOptionText1 = document.getElementById("current-option-text1");
